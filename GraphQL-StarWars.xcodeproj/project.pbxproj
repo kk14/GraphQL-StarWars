@@ -22,6 +22,7 @@
 		DA1DC4BF293E5C4E00DC5143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA1DC4C1293E5C5000DC5143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1DC4C4293E5C5000DC5143 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA27ED7E293E640E00BE3AC2 /* StarWarsAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = StarWarsAPI; sourceTree = "<group>"; };
 		DAEC6C41293E60E1000DC018 /* star-wars-swapi@current.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "star-wars-swapi@current.graphqls"; sourceTree = "<group>"; };
 		DAEC6C44293E611B000DC018 /* Query.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Query.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +42,7 @@
 		DA1DC4B1293E5C4E00DC5143 = {
 			isa = PBXGroup;
 			children = (
+				DA27ED7D293E640E00BE3AC2 /* Packages */,
 				DA1DC4BC293E5C4E00DC5143 /* GraphQL-StarWars */,
 				DA1DC4BB293E5C4E00DC5143 /* Products */,
 			);
@@ -73,6 +75,14 @@
 				DA1DC4C4293E5C5000DC5143 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA27ED7D293E640E00BE3AC2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DA27ED7E293E640E00BE3AC2 /* StarWarsAPI */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 		DAEC6C43293E60F6000DC018 /* GraphQL */ = {

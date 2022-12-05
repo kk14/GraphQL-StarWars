@@ -13,6 +13,7 @@
 		DA1DC4C5293E5C5000DC5143 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1DC4C4293E5C5000DC5143 /* Preview Assets.xcassets */; };
 		DA1DC4CD293E5E5700DC5143 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DA1DC4CC293E5E5700DC5143 /* Apollo */; };
 		DA27ED81293E646100BE3AC2 /* StarWarsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = DA27ED80293E646100BE3AC2 /* StarWarsAPI */; };
+		DA27ED83293E654100BE3AC2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27ED82293E654100BE3AC2 /* Network.swift */; };
 		DAEC6C42293E60E2000DC018 /* star-wars-swapi@current.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = DAEC6C41293E60E1000DC018 /* star-wars-swapi@current.graphqls */; };
 		DAEC6C45293E611B000DC018 /* Query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DAEC6C44293E611B000DC018 /* Query.graphql */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		DA1DC4C1293E5C5000DC5143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA1DC4C4293E5C5000DC5143 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA27ED7E293E640E00BE3AC2 /* StarWarsAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = StarWarsAPI; sourceTree = "<group>"; };
+		DA27ED82293E654100BE3AC2 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		DAEC6C41293E60E1000DC018 /* star-wars-swapi@current.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "star-wars-swapi@current.graphqls"; sourceTree = "<group>"; };
 		DAEC6C44293E611B000DC018 /* Query.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Query.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DAEC6C44293E611B000DC018 /* Query.graphql */,
+				DA27ED82293E654100BE3AC2 /* Network.swift */,
 			);
 			path = GraphQL;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				DA1DC4C0293E5C4E00DC5143 /* ContentView.swift in Sources */,
 				DA1DC4BE293E5C4E00DC5143 /* GraphQL_StarWarsApp.swift in Sources */,
+				DA27ED83293E654100BE3AC2 /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

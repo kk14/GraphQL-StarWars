@@ -12,6 +12,7 @@
 		DA1DC4C2293E5C5000DC5143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1DC4C1293E5C5000DC5143 /* Assets.xcassets */; };
 		DA1DC4C5293E5C5000DC5143 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1DC4C4293E5C5000DC5143 /* Preview Assets.xcassets */; };
 		DA1DC4CD293E5E5700DC5143 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DA1DC4CC293E5E5700DC5143 /* Apollo */; };
+		DA27ED81293E646100BE3AC2 /* StarWarsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = DA27ED80293E646100BE3AC2 /* StarWarsAPI */; };
 		DAEC6C42293E60E2000DC018 /* star-wars-swapi@current.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = DAEC6C41293E60E1000DC018 /* star-wars-swapi@current.graphqls */; };
 		DAEC6C45293E611B000DC018 /* Query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = DAEC6C44293E611B000DC018 /* Query.graphql */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA27ED81293E646100BE3AC2 /* StarWarsAPI in Frameworks */,
 				DA1DC4CD293E5E5700DC5143 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +47,7 @@
 				DA27ED7D293E640E00BE3AC2 /* Packages */,
 				DA1DC4BC293E5C4E00DC5143 /* GraphQL-StarWars */,
 				DA1DC4BB293E5C4E00DC5143 /* Products */,
+				DA27ED7F293E646100BE3AC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +88,13 @@
 			name = Packages;
 			sourceTree = "<group>";
 		};
+		DA27ED7F293E646100BE3AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DAEC6C43293E60F6000DC018 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 			name = "GraphQL-StarWars";
 			packageProductDependencies = (
 				DA1DC4CC293E5E5700DC5143 /* Apollo */,
+				DA27ED80293E646100BE3AC2 /* StarWarsAPI */,
 			);
 			productName = "GraphQL-StarWars";
 			productReference = DA1DC4BA293E5C4E00DC5143 /* GraphQL-StarWars.app */;
@@ -388,6 +399,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DA1DC4CB293E5E5700DC5143 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
+		};
+		DA27ED80293E646100BE3AC2 /* StarWarsAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StarWarsAPI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
